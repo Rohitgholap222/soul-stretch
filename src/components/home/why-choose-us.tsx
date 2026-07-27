@@ -10,7 +10,7 @@ const differentiators = [
     number: "01",
     title: "Coaching that notices you",
     description:
-      "Personal cues, intelligent modifications, and coaches who know your nameâ€”not just your rep count.",
+      "Personal cues, intelligent modifications, and coaches who know your nameÃ¢â‚¬â€not just your rep count.",
   },
   {
     icon: Dumbbell,
@@ -54,7 +54,6 @@ function AnimatedStat({
     }
 
     if (prefersReducedMotion) {
-      setDisplayValue(value);
       return;
     }
 
@@ -80,7 +79,7 @@ function AnimatedStat({
   return (
     <div ref={ref}>
       <p className="font-heading text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-        {displayValue}
+        {prefersReducedMotion ? value : displayValue}
         {suffix}
       </p>
       <p className="mt-2 text-sm text-white/65">{label}</p>
@@ -100,7 +99,7 @@ export function WhyChooseUs() {
             </h2>
           </div>
           <p className="max-w-xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-            Our studio is made for the way you want to liveâ€”not just the way you want to look. Come for a class, stay for the energy it gives back.
+            Our studio is made for the way you want to liveÃ¢â‚¬â€not just the way you want to look. Come for a class, stay for the energy it gives back.
           </p>
         </div>
 
