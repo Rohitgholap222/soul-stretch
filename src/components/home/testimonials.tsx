@@ -45,7 +45,7 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="scroll-mt-20 py-20 sm:py-24 lg:py-32">
+    <section id="testimonials" className="scroll-mt-20">
       <div className="section-shell">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">

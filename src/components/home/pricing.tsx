@@ -61,7 +61,7 @@ export function Pricing() {
   const [billingPeriod, setBillingPeriod] = useState<"monthly" | "annually">("monthly");
 
   return (
-    <section id="pricing" className="scroll-mt-20 py-20 sm:py-24 lg:py-32 bg-muted/30">
+    <section id="pricing" className="scroll-mt-20 bg-muted/30 py-10 sm:py-12 lg:py-16">
       <div className="section-shell">
         <div className="flex flex-col items-center text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">

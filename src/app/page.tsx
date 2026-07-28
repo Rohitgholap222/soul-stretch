@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="flex flex-col gap-10 pb-10 sm:gap-12 sm:pb-12 lg:gap-16 lg:pb-16">
         <Hero />
         <AboutPreview />
         <WhyChooseUs />

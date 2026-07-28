@@ -6,7 +6,7 @@ import { featuredTrainers } from "@/data/trainers";
 
 export function Trainers() {
   return (
-    <section id="trainers" className="scroll-mt-20 bg-slate-950 py-20 text-white sm:py-24 lg:py-32" aria-labelledby="trainers-title">
+    <section id="trainers" className="scroll-mt-20 bg-slate-950 py-10 text-white sm:py-12 lg:py-16" aria-labelledby="trainers-title">
       <div className="section-shell">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>

@@ -6,7 +6,7 @@ import { featuredClasses } from "@/data/classes";
 
 export function FeaturedClasses() {
   return (
-    <section id="classes" className="scroll-mt-20 py-20 sm:py-24 lg:py-32" aria-labelledby="featured-classes-title">
+    <section id="classes" className="scroll-mt-20" aria-labelledby="featured-classes-title">
       <div className="section-shell">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>

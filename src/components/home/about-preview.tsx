@@ -21,7 +21,7 @@ const highlights = [
 
 export function AboutPreview() {
   return (
-    <section id="about" className="scroll-mt-20 py-20 sm:py-24 lg:py-32">
+    <section id="about" className="scroll-mt-20">
       <div className="section-shell grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
         <div className="relative mx-auto w-full max-w-md lg:mx-0">
           <div className="absolute inset-0 -rotate-6 rounded-[2rem] bg-secondary/15" />

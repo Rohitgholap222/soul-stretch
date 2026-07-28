@@ -12,7 +12,7 @@ const trustPoints = ["Expert-led classes", "Flexible membership", "First class o
 
 export function Hero() {
   return (
-    <section className="relative isolate overflow-hidden bg-background pb-16 pt-14 sm:pb-20 sm:pt-20 lg:pb-28 lg:pt-28">
+    <section className="relative isolate overflow-hidden bg-background pt-12 sm:pt-14 lg:pt-20">
       <div className="absolute inset-x-0 top-0 -z-10 h-[34rem] bg-[radial-gradient(circle_at_top_right,_color-mix(in_srgb,var(--primary)_16%,transparent),_transparent_45%),radial-gradient(circle_at_10%_30%,_color-mix(in_srgb,var(--secondary)_14%,transparent),_transparent_35%)]" />
       <div className="section-shell grid items-center gap-12 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:gap-16">
         <motion.div

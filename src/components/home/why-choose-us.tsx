@@ -89,7 +89,7 @@ function AnimatedStat({
 
 export function WhyChooseUs() {
   return (
-    <section className="scroll-mt-20 bg-muted/55 py-20 sm:py-24 lg:py-32" aria-labelledby="why-choose-us-title">
+    <section className="scroll-mt-20 bg-muted/55 py-10 sm:py-12 lg:py-16" aria-labelledby="why-choose-us-title">
       <div className="section-shell">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,0.72fr)] lg:items-end lg:gap-20">
           <div>

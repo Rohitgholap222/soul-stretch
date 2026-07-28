@@ -117,7 +117,7 @@ export function Feedback() {
   }
 
   return (
-    <section id="feedback" className="scroll-mt-20 py-20 sm:py-24 lg:py-32 bg-muted/20">
+    <section id="feedback" className="scroll-mt-20 bg-muted/20 py-10 sm:py-12 lg:py-16">
       <div className="section-shell">
         <div className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           <div className="flex flex-col justify-center">
