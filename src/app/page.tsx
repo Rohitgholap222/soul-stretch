@@ -5,6 +5,7 @@ import { Trainers } from "@/components/home/trainers";
 import { WhyChooseUs } from "@/components/home/why-choose-us";
 import { Pricing } from "@/components/home/pricing";
 import { Testimonials } from "@/components/home/testimonials";
+import { Feedback } from "@/components/home/feedback";
 import { Contact } from "@/components/home/contact";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -21,6 +22,7 @@ export default function Home() {
         <Trainers />
         <Pricing />
         <Testimonials />
+        <Feedback />
         <Contact />
       </main>
       <Footer />

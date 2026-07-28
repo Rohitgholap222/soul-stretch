@@ -23,9 +23,13 @@ export const metadata: Metadata = {
     default: "SoulStretch | Yoga & Fitness Studio",
     template: "%s | SoulStretch",
   },
+
   description:
     "Elevate your movement, strength, and wellbeing with expert-led yoga and fitness experiences.",
   keywords: ["yoga studio", "fitness club", "personal training", "wellness"],
+    icons: {
+    icon: "/fevicon.png", 
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

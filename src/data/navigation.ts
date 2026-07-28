@@ -4,4 +4,5 @@ export const primaryNavigation = [
   { href: "/#trainers", label: "Trainers" },
   { href: "/#pricing", label: "Pricing" },
   { href: "/#testimonials", label: "Stories" },
+  { href: "/#feedback", label: "Feedback" },
 ] as const;
